@@ -1,0 +1,126 @@
+ body {
+        background: url('img/bg.jpg') repeat fixed;
+        background-color: transparent;
+        background-image: url("img/bg.jpg");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+}
+.main-content{
+              max-width: 1250px;
+              min-height: 100%;
+              margin: 0 auto;
+              margin-top: 50px;
+              box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+              position: relative;
+              border-radius: 5px;
+              margin-bottom: 50px
+
+
+}
+.relative {     
+            position: relative;
+}
+
+ 
+
+.mimg{
+         background: url('img/mountain.jpg') no-repeat;
+        background-color: transparent;
+        background-image: url("img/mountain.jpg") fixed ;
+
+}
+header .intro-text {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  padding-left: 400px;
+  color: white;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  padding-left: 70px;
+
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+
+
+ul.search-buttons {
+  margin-bottom: 0;
+}
+ul.search-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.search-buttons li a:hover,
+ul.search-buttons li a:focus,
+ul.search-buttons li a:active {
+  background-color: gray;
+}
+
+.location-buttons{
+          background-color: #f45358;
+          display: block;
+          height: 35px;
+          width: 35px;
+          border-radius: 100%;
+          font-size: 20px;
+          line-height: 40px;
+          text-align: center;
+          color: white;
+          outline: none;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    
+   
+    
+    transition: 0.5s;
+    padding-top: 10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas  a:focus{
+    color: white;   
+    background-color: cyan;
+    text-decoration:none
+}
+
+
