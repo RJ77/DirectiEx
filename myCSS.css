@@ -105,22 +105,140 @@ ul.search-buttons li a:active {
    
     
     transition: 0.5s;
-    padding-top: 10px;
+    padding-top: 1px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 3px 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     
     transition: 0.3s
 }
 
 .sidenav a:hover, .offcanvas  a:focus{
-    color: white;   
-    background-color: cyan;
-    text-decoration:none
+    color: gray;   
+   
+    text-decoration:none;
+    background-size: 100%; 
+}
+.sidenav > ul > li {
+    padding-bottom: 7px;
+}
+ 
+#progressbar {
+      background-color: gray;
+        margin-top: 8px;
+        margin-left: -20px;
+      padding: 1px;
+    }
+    
+    #progressbar > div {
+       background-color: white;
+       width: 40%; 
+       height: 3px;
+      
+    }
+
+.custom-icon {
+
+  
+  background-color: #bcd6ff;
+  padding:15px;
+  vertical-align:middle;
+  border-radius:100%;
+  color:white;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  text-align:center;
+ 
+  width:60px;
+  height:60px;
+  
+}
+.custom-icon:hover {
+  background:gray;
+}
+.fix-editor {
+  display:none;
+}
+.icon-wrapper {
+  display:inline-block;
 }
 
 
+
+
+
+.col-md-2, .col-md-10{
+    padding:0;
+     border-radius: 50px 50px 0px 0px;
+}
+.panel{
+    margin-bottom: 0px; 
+     border-radius: 50px 50px 0px 0px;
+}
+.chat-window{
+    bottom:0;
+    position:fixed;
+    float:right;
+    margin-left:10px;
+     border-radius: 50px 50px 0px 0px;
+}
+.chat-window > div > .panel{
+    border-radius: 50px 50px 0px 0px;
+}
+.icon_minim{
+    padding:2px 10px;
+}
+.msg_container_base{
+  background: #e5e5e5;
+  margin: 0;
+  padding: 0 10px 10px;
+  max-height:300px;
+  overflow-x:hidden;
+}
+.top-bar {
+  background: #666;
+  color: white;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
+.msg_container_base::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.btn-group.dropup{
+    position:fixed;
+    right:-745px;
+    bottom:-25px;
+}
+.ride{
+    background-color: #fffed1;
+
+}
+.ride ul > li {
+    padding-bottom: 3px;
+    text-decoration: none;
+
+}
